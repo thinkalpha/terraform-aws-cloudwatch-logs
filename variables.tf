@@ -19,3 +19,8 @@ variable "log_group_kms_key_id" {
   default     = ""
 }
 
+variable "tags" {
+  description = "tags"
+  default     = {}
+  type        = map(string)
+}
